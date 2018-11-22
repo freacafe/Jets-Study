@@ -1,0 +1,38 @@
+\documentclass[11pt,a4paper]{article}
+\pdfoutput=1
+\usepackage{graphicx,epsfig}
+\usepackage{wrapfig}
+\pagestyle{empty}
+\begin{document}
+\begin{figure}[t]
+  \centering
+  \begin{picture}(0,0)
+    \put(5,-15){\rotatebox{90}{\scalebox{0.5}{$\psi(r)$ ratio to NLO}}}
+    \put(63,-60){\scalebox{0.5}{$r$}}
+    \put(160,-60){\scalebox{0.5}{$r$}}
+    \put(257,-60){\scalebox{0.5}{$r$}}
+  \end{picture}
+  \begin{minipage}{3.75cm}
+    \includegraphics[scale=0.33]{{psi_0.5_100}.pdf}\\[-0.675mm]
+    \includegraphics[scale=0.33]{{psi_0.5_200}.pdf}\\[-0.675mm]
+    \includegraphics[scale=0.33]{{psi_0.5_400}.pdf}\\[-0.675mm]
+    \includegraphics[scale=0.33]{{psi_0.5_800}.pdf}\\[-0.675mm]
+    \includegraphics[scale=0.33]{{psi_0.5_1600}.pdf}
+  \end{minipage}
+  \begin{minipage}{3.25cm}
+    \includegraphics[scale=0.33,clip,trim=1.4cm 0 0 0]{{psi_0.7_100}.pdf}\\[-0.675mm]
+    \includegraphics[scale=0.33,clip,trim=1.4cm 0 0 0]{{psi_0.7_200}.pdf}\\[-0.675mm]
+    \includegraphics[scale=0.33,clip,trim=1.4cm 0 0 0]{{psi_0.7_400}.pdf}\\[-0.675mm]
+    \includegraphics[scale=0.33,clip,trim=1.4cm 0 0 0]{{psi_0.7_800}.pdf}\\[-0.675mm]
+    \includegraphics[scale=0.33,clip,trim=1.4cm 0 0 0]{{psi_0.7_1600}.pdf}
+  \end{minipage}
+  \begin{minipage}{3cm}
+    \includegraphics[scale=0.33,clip,trim=1.3cm 0 0 0]{{psi_0.9_100}.pdf}\\[-0.675mm]
+    \includegraphics[scale=0.33,clip,trim=1.3cm 0 0 0]{{psi_0.9_200}.pdf}\\[-0.675mm]
+    \includegraphics[scale=0.33,clip,trim=1.3cm 0 0 0]{{psi_0.9_400}.pdf}\\[-0.675mm]
+    \includegraphics[scale=0.33,clip,trim=1.3cm 0 0 0]{{psi_0.9_800}.pdf}\\[-0.675mm]
+    \includegraphics[scale=0.33,clip,trim=1.3cm 0 0 0]{{psi_0.9_1600}.pdf}
+  \end{minipage}
+\end{figure}
+\end{document}
+
